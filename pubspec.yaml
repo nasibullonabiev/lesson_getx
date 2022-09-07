@@ -1,0 +1,41 @@
+name: lesson_getx
+description: This project is Learn GetX
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-168.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #network
+  dio: any
+    # design
+  flutter_slidable: any
+  # state management
+  get: any
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
